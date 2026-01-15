@@ -61,6 +61,7 @@ $grid-gutter-width: 0.5rem;
 // scss-docs-start card-variables
 
 $card-border-radius: 2rem;
+// $info: $new-info;
 $card-color: $info;
 $card-bg: $gray-800;
 
@@ -76,6 +77,22 @@ $input-border-radius-sm: $border-radius-pill;
 $input-border-radius-lg: $border-radius-pill;
 
 // scss-docs-end card-variables
+
+$new-grid-breakpoints: (
+    3xl: 1600px,
+    4xl: 1800px,
+);
+
+$new-container-max-widths: (
+    3xl: 1520px,
+    4xl: 1720px,
+);
+
+$grid-breakpoints: map-merge($grid-breakpoints, $new-grid-breakpoints);
+$container-max-widths: map-merge(
+    $container-max-widths,
+    $new-container-max-widths
+);
 
 //  fine delle personalizzazioni
 //
