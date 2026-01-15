@@ -7,9 +7,13 @@
 // inserire il codice per le personalizzazioni
 
 $new-danger: #ff0077;
+$new-info: #00ffea;
+$new-light: #f3eeff;
 
 $new-theme-colors: (
     "danger": $new-danger,
+    "info": $new-info,
+    "light": $new-light,
 );
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
