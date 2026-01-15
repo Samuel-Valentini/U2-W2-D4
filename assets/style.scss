@@ -1,6 +1,9 @@
 @import "./scss/functions";
 @import "./scss/variables";
 
+// il seguente import non funziona:
+// @import "./scss/bootstrap";
+
 // inserire il codice per le personalizzazioni
 
 // $new-info: rgb(255, 128, 0);
@@ -10,6 +13,20 @@
 // );
 
 // $theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+$h7-new-font-size: $font-size-base * 0.9;
+$h8-new-font-size: $font-size-base * 0.75;
+$h9-new-font-size: $font-size-base * 0.5;
+$h10-new-font-size: $font-size-base * 0.25;
+
+$new-font-sizes: (
+    7: $h7-new-font-size,
+    8: $h8-new-font-size,
+    9: $h9-new-font-size,
+    10: $h10-new-font-size,
+);
+
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
 
 //  fine delle personalizzazioni
 
