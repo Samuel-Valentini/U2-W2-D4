@@ -38,6 +38,12 @@ $new-border-widths: (
 
 $border-widths: map-merge($border-widths, $new-border-widths);
 
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x: 2.5rem;
+
+$btn-padding-y: $input-btn-padding-y;
+$btn-padding-x: $input-btn-padding-x;
+
 //  fine delle personalizzazioni
 //
 
