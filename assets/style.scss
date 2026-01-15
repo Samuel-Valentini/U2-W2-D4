@@ -28,6 +28,16 @@ $new-font-sizes: (
 
 $font-sizes: map-merge($font-sizes, $new-font-sizes);
 
-//  fine delle personalizzazioni
+$new-border-widths: (
+    6: 6px,
+    7: 7px,
+    8: 8px,
+    9: 9px,
+    10: 10px,
+);
 
+$border-widths: map-merge($border-widths, $new-border-widths);
+
+//  fine delle personalizzazioni
+//
 @import "./scss/bootstrap.scss";
