@@ -1,0 +1,16 @@
+@import "./scss/functions";
+@import "./scss/variables";
+
+// inserire il codice per le personalizzazioni
+
+// $new-info: rgb(255, 128, 0);
+
+// $new-theme-colors: (
+//     "info": $new-info,
+// );
+
+// $theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+//  fine delle personalizzazioni
+
+@import "./scss/bootstrap.scss";
