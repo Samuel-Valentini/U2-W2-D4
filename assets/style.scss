@@ -58,6 +58,17 @@ $card-border-radius: 2rem;
 $card-color: $info;
 $card-bg: $gray-800;
 
+$border-radius-pill: 50rem;
+$badge-border-radius: $border-radius-pill;
+
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-sm: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
+
+$input-border-radius: $border-radius-pill;
+$input-border-radius-sm: $border-radius-pill;
+$input-border-radius-lg: $border-radius-pill;
+
 // scss-docs-end card-variables
 
 //  fine delle personalizzazioni
